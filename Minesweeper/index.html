@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<div style="display:none;">
+    <img id="cell_0" src="images/cell_0.png">
+    <img id="cell_1" src="images/cell_1.png">
+    <img id="cell_2" src="images/cell_2.png">
+    <img id="cell_3" src="images/cell_3.png">
+    <img id="cell_4" src="images/cell_4.png">
+    <img id="cell_5" src="images/cell_5.png">
+    <img id="cell_6" src="images/cell_6.png">
+    <img id="cell_7" src="images/cell_7.png">
+    <img id="cell_8" src="images/cell_8.png">
+    <img id="cell_mine" src="images/cell_mine.png">
+    <img id="cell_press" src="images/cell_press.png">
+    <img id="cell_flag" src="images/cell_flag.png">
+
+</div>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Minesweeper" />
+
+    <title>Minesweeper</title>
+
+	<script src="js/gameState.js"></script>
+	<script src="js/cell.js"></script>
+	<script src="js/grid.js"></script>
+    <script src="js/main.js"></script>
+    
+</head>
+
+<body>
+    <canvas id="canvas" width="100" height="200" style="position:fixed;min-height:100%;min-width:100%;height:100%;width:100%;top:0%;left:0%;resize:none;">
+        </canvas>
+        
+        <script>
+        	canvas = document.getElementById("canvas");
+    		canvas.width = window.innerWidth;
+    		canvas.height = window.innerHeight;
+    		canvasW = canvas.width;
+    		canvasH = canvas.height;
+    		
+        </script>
+</body>
+
+</html>
